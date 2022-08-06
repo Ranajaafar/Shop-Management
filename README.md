@@ -74,13 +74,13 @@ For our project we used <b> <I>power Designer</I> </b> to design the ER and phys
 
 Create DDL script:
 - <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateTables.sql
-" > Create Tables</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateIndexes.sql" >Create Indexes</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateViews.sql" >Create Views</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateProcedures.sql" >Create Procedures</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateTriggers.sql" >Create Triggers</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateFunctions.sql" >Create Functions</a>
-- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateLogins.sql" >Create Logins with User and Priviligies</a>
+" target=blank > Create Tables</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateIndexes.sql" target=blank >Create Indexes</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateViews.sql" target=blank >Create Views</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateProcedures.sql" target=blank >Create Procedures</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateTriggers.sql" target=blank >Create Triggers</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateFunctions.sql" target=blank >Create Functions</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateLogins.sql" target=blank >Create Logins with User and Priviligies</a>
 
 <b>Batch File</b>
 ~~~~~~~~~~~

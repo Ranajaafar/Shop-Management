@@ -1,5 +1,5 @@
-set LOC=C:\Users\hp\Desktop\lynn_aouad_97751_rana_jaafar_97456_lynn_elmesmar_97068
-set SERV=-S HP-PC\SQLEXPRESS -U sa -P lynnaouad
+set LOC=C:\Users\hp\Desktop\Project\DataBase
+set SERV=-S HP-PC\SQLEXPRESS -U sa -P RanaJaafar
 
 echo Beginning...
 

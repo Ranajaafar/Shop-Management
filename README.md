@@ -9,6 +9,7 @@
 <img src="https://img.shields.io/badge/-Batch%20File-68A51C?logo=Batch%20File&logoColor=fff" />
 <br/><br/>
 
+https://user-images.githubusercontent.com/110610925/183263601-290de8a6-35f2-4185-a751-5a05a98c8c0d.mp4
 
 
 In this project we have developed two Web applications:
@@ -46,7 +47,7 @@ All those changes will be updated directly into the database.
 
 ### Application Architecture:
 <img src="https://user-images.githubusercontent.com/110610925/183241102-922a6400-5dca-47b9-b889-605fba97dda2.png" width="45%" align="left" />
-<img src="https://user-images.githubusercontent.com/110610925/183241103-5af535c5-5908-47aa-b6db-ff364f7eaa85.png" width="45%" />
+<img src="https://user-images.githubusercontent.com/110610925/183241103-5af535c5-5908-47aa-b6db-ff364f7eaa85.png" width="48%" />
 
 <br/><br/>
 
@@ -64,3 +65,53 @@ For our project we used <b> <I>power Designer</I> </b> to design the ER and phys
 
 ![Shop-PDM](https://user-images.githubusercontent.com/110610925/183241248-02ba6d94-29bc-4220-8d59-923e9242943b.png)
 
+Create DDL script:
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateTables.sql
+" > Create Tables</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateIndexes.sql" >Create Indexes</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateViews.sql" >Create Views</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateProcedures.sql" >Create Procedures</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateTriggers.sql" >Create Triggers</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateFunctions.sql" >Create Functions</a>
+- <a href="https://raw.githubusercontent.com/Ranajaafar/Shop-Management/main/DataBase/sql/Shop-CreateLogins.sql" >Create Logins with User and Priviligies</a>
+
+<b>Batch File</b>
+~~~~~~~~~~~
+set LOC=C:\Users\hp\Desktop\Project\DataBase
+set SERV=-S HP-PC\SQLEXPRESS -U sa -P RanaJaafar
+
+echo Beginning...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateDB.sql -o%LOC%\log\DB.log
+echo Database created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateTables.sql -o%LOC%\log\Tables.log
+echo Tables created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateIndexes.sql -o%LOC%\log\Indexes.log
+echo Indexes created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateViews.sql -o%LOC%\log\Views.log
+echo Views created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateProcedures.sql -o%LOC%\log\Procedures.log
+echo Procedures created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateTriggers.sql -o%LOC%\log\Triggers.log
+echo Triggers created...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateFunctions.sql -o%LOC%\log\Functions.log
+echo Functions created...
+
+osql %SERV% -i%LOC%\sql\Shop-InsertData.sql -o%LOC%\log\Data.log
+echo Data inserted...
+
+osql %SERV% -i%LOC%\sql\Shop-CreateLogins.sql -o%LOC%\log\Logins.log
+echo Logins created...
+
+echo End of batch file...
+
+~~~~~~~~~~~
+
+
+for execute all the sql Script you have set LOC by the path of folder DataBase in your machine,and set SERV by Login and Password of MS SQL

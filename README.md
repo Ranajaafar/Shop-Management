@@ -45,8 +45,8 @@ All those changes will be updated directly into the database.
 <br/><br/>
 
 ### Application Architecture:
-<img src="https://user-images.githubusercontent.com/110610925/183241102-922a6400-5dca-47b9-b889-605fba97dda2.png" align="left" />
-<img src="https://user-images.githubusercontent.com/110610925/183241103-5af535c5-5908-47aa-b6db-ff364f7eaa85.png" />
+<img src="https://user-images.githubusercontent.com/110610925/183241102-922a6400-5dca-47b9-b889-605fba97dda2.png" width="45%" align="left" />
+<img src="https://user-images.githubusercontent.com/110610925/183241103-5af535c5-5908-47aa-b6db-ff364f7eaa85.png" width="45%" />
 
 <br/><br/>
 

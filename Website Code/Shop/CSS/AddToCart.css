@@ -1,0 +1,172 @@
+  
+.container{  width:95%;
+    margin:0 auto;
+     display: flex;
+    flex-direction: column;  }
+
+main{
+ position: relative;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.product{
+    width:50%;
+    height:auto;
+    display:flex;
+    margin-bottom: 1rem;
+    background-color: rgb(255, 240, 242);
+    padding:.6rem;
+}
+
+.product img{
+    width:20%;
+    object-fit: contain;
+    height:100px;
+
+    margin-right: 1rem;
+}
+
+.details{
+    width:100%;
+    justify-self:left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    display: flex;
+    width:100%;
+    height: fit-content;
+    padding: 0;
+    justify-content: space-between;
+   
+}
+
+.rem{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+  
+}
+
+
+
+.name{
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.info{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.qty{
+    color:rgb(145, 145, 145);   
+}
+
+.totalPrice{
+    width:50%;
+    height:1auto;
+
+    display: flex;
+    flex-direction: column;
+    padding: .6rem;
+
+}
+
+.cartTotal,.discount,.shipping, .total, .payment{
+  
+  
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding:0 .6rem;
+}
+
+.cartTotal h2,.discount h2,.shipping h2,.total h2,.payment h2{
+
+    font-size: 1.2rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bolder;
+}
+
+.cartTotal p,.discount p,.shipping p,.total p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.payment p{
+    font-size: 1.1rem;
+    
+}
+
+   
+.main2{
+       height: 100vh;
+      justify-content: center;
+   }
+
+.main2 h1{
+       font-weight: 100;
+       color:gray;
+   }
+
+.return{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return button{
+    cursor:pointer;
+    background: none;
+    border: none;
+}
+
+.placeorder{
+    padding:1em 2em;
+    background-color: rgb(52, 142, 226);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:900px){
+    .product{
+        width:90%;
+        height:auto;
+        display:flex;
+        margin-bottom: 1rem;
+        background-color: rgb(255, 240, 242);
+        padding:.6rem;
+    }
+
+    .totalPrice{
+        width:90%;
+        height:1auto;
+    
+        display: flex;
+        flex-direction: column;
+        padding: .6rem;
+    
+    }
+
+}
+
+
+

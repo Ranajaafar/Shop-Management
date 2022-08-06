@@ -1,0 +1,23 @@
+/*********************************** footer *************************************/
+
+footer{ padding:2em; 
+    margin-top: 2em;
+    font-size: .9rem;
+   background-color: var(--background-pink);}
+
+@media (max-width:800px){
+    
+    footer{ padding:2em; 
+        margin-top: 0em;
+    background-color: var(--background-pink);}
+
+   }
+
+
+   @media (max-width:400px){
+    
+    footer{ padding:1em; 
+        margin-top: 0em;
+    background-color: var(--background-pink);}
+
+   }

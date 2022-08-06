@@ -1,0 +1,640 @@
+
+/****************************** Slider ********************************/
+
+.slider{
+    position:relative;
+    width:70%;
+    height: auto;
+    padding:0;
+    margin-bottom: 3em;
+}
+
+.slider img{
+    max-width: 100%;
+    width:100%;
+    height: 300px;
+    
+}
+.prev,.next{
+    position: absolute;
+    cursor: pointer;
+    background:none;
+}
+
+.prev{
+    left:4px;
+    top:40%;
+}
+
+.next{
+    right:5px;
+    top:40%;
+}
+
+/*********************************** Title ***************************************/
+
+.title{ margin-top:-8em;
+    margin-bottom: 3em;
+    width:100%;
+    text-align: center;}
+
+.title h1{  font-size: 2.5rem;
+        font-family: 'Tajawal', sans-serif;}
+
+
+
+/*********************************** Services *************************************/
+
+
+.services{margin-bottom: 4em;
+      width:100%;
+      max-width: 100%;
+      height:auto;
+      display:inline-flex;
+      justify-content: center;}
+
+.services .logo{align-items: center;
+            display: flex;
+            flex-direction: column;
+     
+            width:15%;
+            margin-right: 20px;
+            background-color: var(--background-pink);
+            border-radius: 3px;
+            text-align: center;
+            padding: .8rem 0;
+        
+            font-size: 1.1rem;
+            font-family: 'Voltaire', sans-serif;}
+
+.services .logo:last-child{
+    margin-right: 0px;
+}            
+
+.services #logo1{margin-bottom: .5em;}
+
+/************************************* Latest-products **************************************/
+
+.Latest-products, .about{width:100%;
+    height: auto;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    background-color: var(--background-pink);
+    border: 3px solid var(--border-pink);}
+
+/*************************************** Products ***********************************************/
+
+.products_container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.product{
+    width:25%;
+    
+    height:auto;
+    margin-bottom: 1em;
+
+}
+
+.product img{
+    width:100%;
+    max-width: 100%;
+    height:200px; 
+  
+}
+
+fieldset{
+    text-align: center;
+}
+
+legend{ font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+span{color: var(--text-pink);
+             font-size: 1.5rem;}
+
+
+/************************* not tested on animals ****************************/
+
+
+.not-tested-on-animals{display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;}
+
+.not-tested-logos{width:45%;
+height: 150px;
+background-color:var(--background-gray);
+border-radius: 0 50px 0 0;
+display: flex;
+justify-content: space-evenly;
+display: flex;
+padding: 1em;}
+
+
+.not-tested-text{width:45%;}
+
+
+legend span{color: var(--text-pink)}
+
+
+p{  font-family: 'Voltaire', sans-serif;
+    font-size: 1.2rem;}
+
+/*********************************** Offer + video *************************************/
+
+.general-offer{ 
+                width:100%;
+                display: flex;
+                justify-content: space-between;}
+
+
+.aside{ width:48%;
+        display: flex;
+        flex-direction: column;}
+
+.gif{
+    width:47%;
+     object-fit: contain; 
+     object-position:center;
+      height:auto;}
+
+.gif img{
+    width:100%;
+    max-width: 100%;
+    height: 400px;
+}
+
+
+
+
+#offer{   height: auto;
+margin-bottom: 2em;}
+
+.subscription{ display: flex;
+     flex-direction: column;}
+
+.social-media-icons{ display: flex;
+           justify-content: space-evenly;
+           margin-bottom: 2em;}
+
+.social-media-icons a{ width:60px; 
+             display: flex;
+             height: 60px; 
+             justify-content: center; 
+             align-items: center;}
+
+.social-media-icons a::before{content: ''; 
+                    position: absolute; 
+                    width:60px; 
+                    height: 60px; 
+                    border-radius: 50%; 
+                    background: linear-gradient(var(--background-pink),pink); 
+                    z-index: -1; 
+                    transition: 0.3s ease-in;}
+
+.social-media-icons a:hover::before{ transform: scale(0);}
+
+
+.email{ display: flex;
+    flex-direction: column;}
+
+.sign-up{align-self: center;
+     display: inline-flex;
+     font-family: 'Voltaire', sans-serif;
+     margin-bottom: 1em;}
+
+.sign-up h3{ padding:.2em; 
+         font-size: 1.5rem; 
+         color:#7c1d59; }
+
+.email-sign-up p{ margin-bottom:1em ; 
+              text-align: center;}
+
+.email-sign-up p a{ color: rgb(0, 0, 105);}
+
+.email-sign-up form{
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#email{
+margin-left: 75px;    
+padding:.5em;
+width:170px;
+outline: none;
+border-radius: 3px;
+border:2px solid var(--border-pink)}
+
+#submit{margin-left: 1em;
+font-family: 'Voltaire', sans-serif;
+font-size: .8rem;
+padding: .3em;
+width:70px;
+font-weight: bold;
+cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************/
+@media(max-width:800px){
+
+
+.title{ margin-top:-8em;
+    margin-bottom: 2em;}
+
+
+.title h1{  font-size: 2rem;
+    font-family: 'Tajawal', sans-serif;}
+
+
+.slider{
+    position:relative;
+    width:80%;
+    height: auto;
+    padding:0;
+    margin-bottom: 3em;
+}
+
+.slider img{
+    max-width: 100%;
+    width:100%;
+    height: 200px;
+    
+}
+.prev,.next{
+    position: absolute;
+    cursor: pointer;
+    background:none;
+}
+
+.prev{
+    left:4px;
+    top:40%;
+}
+
+.next{
+    right:5px;
+    top:40%;
+}
+
+.services{margin-bottom: 3em;
+    width:100%;
+    max-width: 100%;
+    height:100px;
+    display:flex;
+    justify-content: space-between;}
+
+.services .logo{align-items: center;
+          display: flex;
+          flex-direction: column;
+
+          width:22%;
+          background-color: var(--background-pink);
+          border-radius: 3px;
+          text-align: center;
+          padding-top: 1.1em;
+      
+          font-size: 1rem;
+          font-family: 'Voltaire', sans-serif;}
+
+.services #logo1{margin-bottom: .5em;}
+
+.Latest-products, .about{width:100%;
+    height: auto;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    background-color: var(--background-pink);
+    border: 3px solid var(--border-pink);}
+
+.products_container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+    margin-bottom: 2em;
+}
+
+.product{
+    width:25%;
+    
+    height:auto;
+    margin-bottom: 1em;
+}
+
+.product img{
+    width:100%;
+    max-width: 100%;
+    height:100px; 
+    object-fit: contain;
+}
+
+fieldset{
+    text-align: center;
+}
+
+legend{ font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+span{color: var(--text-pink);
+             font-size: 1rem;}
+
+.not-tested-on-animals{display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;}
+
+.not-tested-logos{width:30%;
+    height: 100px;
+    background-color:var(--background-gray);
+    border-radius: 0 50px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1em;}
+
+.not-tested-logos img{
+    width:50%;
+}
+
+.not-tested-text{width:55%;}
+
+
+legend span{color: var(--text-pink)}
+
+
+p{  font-family: 'Voltaire', sans-serif;
+    font-size: .8rem;}
+
+
+.general-offer{ 
+                width:100%;
+                 display: flex;
+                justify-content: space-between;}
+
+
+.aside{ width:35%;
+
+    display: flex;
+    flex-direction: column;}
+
+#offer{   height: auto;
+        margin-bottom: 2em;}
+
+.subscription{ display: flex;
+     flex-direction: column;}
+
+.social-media-icons{ display: flex;
+           justify-content: space-evenly;
+           margin-bottom: 2em;}
+
+.social-media-icons a{ width:40px; 
+             display: flex;
+             height: 40px; 
+             justify-content: center; 
+             align-items: center;}
+
+.social-media-icons a::before{content: ''; 
+                    position: absolute; 
+                    width:40px; 
+                    height: 40px; 
+                    border-radius: 50%; 
+                    background: linear-gradient(var(--background-pink),pink); 
+                    z-index: -1; 
+                    transition: 0.3s ease-in;}
+
+.social-media-icons a:hover::before{ transform: scale(0);}
+
+
+.email{ display: flex;
+    flex-direction: column;}
+
+.sign-up{align-self: center;
+     display: inline-flex;
+     font-family: 'Voltaire', sans-serif;
+     margin-bottom: 1em;}
+
+.sign-up h3{ padding:.2em; 
+         font-size: 1.3rem; 
+         color:#7c1d59; }
+
+.email-sign-up p{ margin-bottom:1em ; 
+              text-align: center;}
+
+.email-sign-up p a{ color: rgb(0, 0, 105);}
+
+.email-sign-up form{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#email{
+    margin-left: 0;
+    padding:.5em;
+    width:170px;
+    outline: none;
+    border-radius: 3px;
+    border:2px solid var(--border-pink)}
+
+#submit{margin-left: .5em;
+    font-family: 'Voltaire', sans-serif;
+    font-size: .8rem;
+    padding: .3em;
+    width:70px;
+    font-weight: bold;
+    cursor: pointer;}
+
+
+.gif{
+   
+    width:60%;
+     object-fit: contain; 
+     object-position:center;
+      height:auto;}
+
+.gif img{
+    max-width: 100%;
+    width: 100%;
+    height:350px;
+}
+
+}
+
+@media(max-width:400px){
+    .product{
+        width:15%;
+        
+        height:auto;
+        margin-bottom: .4em;
+    
+    }
+
+    .product img{
+        width:100%;
+        max-width: 100%;
+        height:70px; 
+        object-fit: contain;
+      
+    }
+
+    .Latest-products, .about{width:100%;
+        height: auto;
+        padding: 1em 0;
+        margin-bottom: 2em;
+        text-align: center;
+        font-family: 'Voltaire', sans-serif;
+        font-size: .8rem;
+        letter-spacing: 3px;
+        background-color: var(--background-pink);
+        border: 3px solid var(--border-pink);}
+
+    .services .logo{align-items: center;
+            display: flex;
+            flex-direction: column;
+  
+            width:22%;
+            background-color: var(--background-pink);
+            border-radius: 3px;
+            text-align: center;
+            padding-top: 1.1em;
+        
+            font-size: .8rem;
+            font-family: 'Voltaire', sans-serif;}
+
+.not-tested-on-animals{display: flex;
+        flex-direction: column;
+   
+          margin-bottom: 1em;}
+
+.not-tested-logos{width:90%;
+                margin-bottom: 1em;
+                max-width: 100%;
+                height: 100px;
+                background-color:var(--background-gray);
+                border-radius: 0 50px 0 0;
+                display: flex;
+                justify-content: space-evenly;
+                display: flex;
+                padding: 1em;}
+
+.not-tested-logos img{
+    width:20%;
+}
+
+.not-tested-text{width:90%;  max-width: 100%;}
+
+
+legend span{color: var(--text-pink)}
+
+
+p{  font-family: 'Voltaire', sans-serif;
+    font-size: .8rem;}
+
+.sign-up h3{ 
+        padding:.2em; 
+        font-size: 1rem; 
+        font-size: 1rem;
+        color:#7c1d59; }
+
+
+.social-media-icons a{ width:30px; 
+            display: flex;
+            height: 30px; 
+            justify-content: center; 
+            align-items: center;}
+
+.social-media-icons a::before{content: ''; 
+                   position: absolute; 
+                   width:30px; 
+                   height: 30px; 
+                   border-radius: 50%; 
+                   background: linear-gradient(var(--background-pink),pink); 
+                   z-index: -1; 
+                   transition: 0.3s ease-in;}
+   
+  
+.gif{
+    margin-top: 1em;
+    width:100%;
+     object-fit: contain; 
+     object-position:center;
+      height:auto;}                 
+
+.gif img{
+    max-width: 100%;
+    width: 100%;
+    height:170px;
+}
+
+.general-offer{ 
+    width:100%;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;}
+
+.aside{ width:100%;
+        display: flex;
+        flex-direction: column;}
+
+
+.email-sign-up form{
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.slider{
+    position:relative;
+    width:90%;
+    height: auto;
+    padding:0;
+    margin-bottom: 3em;
+}
+}
+
+
+
+
+ 
+
+
+
+
+

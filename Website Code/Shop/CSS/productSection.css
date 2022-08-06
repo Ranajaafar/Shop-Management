@@ -1,0 +1,262 @@
+:root { --background-pink:#FFE4F5;
+    --background-gray:#EDEDED ;
+    --background-black: rgba(0, 0, 0, 0.479);
+    --text-pink:#DA9FC5;
+    --border-pink:rgb(255, 182, 222);}
+  
+  
+
+
+
+/*********************************** Title ***************************************/
+fieldset{
+    text-align: center;
+}
+
+legend{ font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+span{color: var(--text-pink);
+             font-size: 1.5rem;}
+
+.title{ margin-top:-8em;
+    margin-bottom: 3em;
+    width:100%;
+    text-align: center;}
+
+.title h1{  font-size: 2.5rem;
+        font-family: 'Tajawal', sans-serif;}
+
+.productContainer{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height:auto;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.PRODUCT{
+    width:20%;
+    height: auto;
+}
+
+.PRODUCT legend{
+    color:rgb(255, 153, 209);
+}
+
+
+.PRODUCT img{
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.productInfo{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.price{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 1em;
+    align-self:flex-start;
+
+  
+}
+
+.price p{
+    width:fit-content;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Voltaire', sans-serif;}
+
+
+
+.description {
+    max-width: 100%;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Voltaire', sans-serif;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.CART{
+    display: flex;
+    justify-content: space-between;
+
+    width:100%;
+}
+
+.quantity{ 
+    font-family: 'Voltaire', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.quantity h3{
+    margin-bottom: .5em;
+    
+}
+
+.qtybtns{
+    
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.qtybtns span{
+    font-size: 1.2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: black;
+}
+
+.QTY{
+    margin-top: .2em;
+    padding: 0 .5rem;
+    font-size: 1rem;
+    background-color: pink;
+    cursor: pointer;
+    border:none;
+    border-radius: 20px;
+}
+
+.cartbtn{
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em 2em;
+    background-color: var(--background-pink) ;
+    cursor: pointer;
+}
+
+#warning_quantity{
+    font-size: 1rem;
+}
+
+
+@media(max-width:850px){
+
+.quantity h3{
+    font-size: 1rem;
+    margin-bottom: .5em;
+}
+
+.cartbtn{
+    text-align: center;
+    font-size: .8rem;
+    padding: .8em 1em;
+    background-color: var(--background-pink) ;
+    cursor: pointer;
+}
+
+}
+
+@media(max-width:650px){
+
+    .CART{
+        display: flex;
+   
+        justify-content: space-between;
+        align-items: center;
+     
+        width:100%;
+    }
+
+    .cartbtn{
+        text-align: center;
+        font-size: .8rem;
+        padding: .8em 1em;
+        background-color: var(--background-pink) ;
+        cursor: pointer;
+        margin-top: 1em;
+    }
+    
+    .PRODUCT{
+        width:30%;
+        height: 170px;
+    }
+    
+    .PRODUCT legend{
+        font-size: 1rem;
+        color:rgb(255, 153, 209);
+    }
+    
+    
+    .PRODUCT img{
+        max-width: 100%;
+        width: 100%;
+        height: 140px;
+        object-fit: contain;
+    }
+ 
+    
+.description {
+    max-width: 100%;
+    width: 100%;
+    font-size: .8rem;
+    font-family: 'Voltaire', sans-serif;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.price p{
+    width:fit-content;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Voltaire', sans-serif;}
+
+.productContainer{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        height:auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3em;
+    }
+
+.productInfo{
+        width:80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1em;
+    }
+
+.price{
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;  
+        margin-bottom: 1em;
+        align-self:center;
+    }
+
+    .title{ margin-top:-8em;
+        margin-bottom: 2em;
+        width:100%;
+        text-align: center;}
+
+.title h1{  font-size: 2rem;
+        font-family: 'Tajawal', sans-serif;}
+    
+    }
+
+
